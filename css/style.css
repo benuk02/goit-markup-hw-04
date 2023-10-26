@@ -394,7 +394,8 @@ img {
 /* Portfolio section */
 /* Main section */
 
-/* Footer */ .footer-section {
+/* Footer */
+.footer-section {
   padding: 100px 0;
   background-color: #2e2f42;
 }
@@ -428,12 +429,14 @@ img {
 .footer-icons {
   display: flex;
 }
+
 .social-media-title {
   margin-left: 269px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 16px;
 }
+
 .social-media-footer {
   display: flex;
   gap: 16px;
