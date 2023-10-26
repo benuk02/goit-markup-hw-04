@@ -88,6 +88,12 @@ img {
   display: flex;
   align-items: center;
 }
+.menu-item-underline::after {
+  content:"";
+  width: 48px;
+  height: 4px;
+  background-color: #404BBF;
+}
 
 .contact-menu {
   display: flex;
