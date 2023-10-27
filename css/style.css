@@ -451,32 +451,21 @@ img {
 .footer-second-part {
   color: #f4f4fd;
 }
-
-.social-media-text {
-  display: flex;
-}
-
-.footer-icons {
-  display: flex;
-}
-
 .social-media-title {
-  margin-left: 269px;
   font-weight: 500;
   color: #FFFFFF;
-  margin-bottom: 16px;
   font-weight: 500;
+  margin-bottom: 16px;
 }
 
 .social-media-footer {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
-.social-media-svg-footer {
-  width: 40px;
-  height: 40px;
+.social-media-svg-item-footer {
+   fill: #f4f4fd;
 }
 
 .social-link-footer {
@@ -488,8 +477,13 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-.social-media-svg-footer:hover {
+.social-media-svg-footer {
+  width: 40px;
+  height: 40px;
+}
+.social-link-footer:hover,
+.social-link-footer:focus
+{
   background-color: #31D0AA;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
