@@ -43,7 +43,7 @@ img {
 }
 
 .container {
-  width: 1440px;
+  width: 1156px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -233,11 +233,10 @@ img {
   border: 1px solid #8E8F99;
   background-color: #F4F4FD;
   margin-bottom: 8px;
-}
-
-.svg-items {
-  margin: 24px 100px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
 
 .goals-menu {
@@ -263,7 +262,16 @@ img {
 .goals-text {
   color: #434455;
 }
-
+.social-link {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
+.social-media-svg-item {
+  fill: #f4f4fd;
+}
 /* Business' directions */
 
 /* Staff */
