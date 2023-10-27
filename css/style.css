@@ -319,9 +319,8 @@ img {
 
 .container-social-media {
   max-width: 232px;
-}
-.content-div {
-  padding: 32px 0;
+  display: flex;
+  justify-content: center;
 }
 .social-media {
   display: flex;
