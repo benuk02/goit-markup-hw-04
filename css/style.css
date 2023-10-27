@@ -317,11 +317,6 @@ img {
   margin-bottom: 8px;
 }
 
-.container-social-media {
-  max-width: 232px;
-  display: flex;
-  justify-content: center;
-}
 .social-media {
   display: flex;
   justify-content: center;
